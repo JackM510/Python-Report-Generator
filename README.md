@@ -12,4 +12,4 @@ If an 'Event' records that a user has logged into a machine, the name of the use
 If an 'Event' records that a user has logged out of a machine, the name of the user is removed from the 'machines' Dictionary using the machine key.
 This function organises the 'events' List and returns the 'machines' Dictionary which contains only a list of users that are logged into a machine.
 
-The function generate_report() iterates over the Dicitonary returned from current_users() and prints a list of users logged into each machine to the console.
+The function generate_report() iterates over the Dictionary returned from current_users() and prints a list of users logged into each machine to the console.
