@@ -1,6 +1,6 @@
 # Python-logged-in-users
 A simple Python script which generates a report of users that are logged into a machine. 
-This script was developed as part of the Crash Course on Python from Google Careers Ceritifcates.
+This script was developed as part of the Crash Course on Python from Google Careers Certificates.
 
 The script contains an 'Event' class and a List element named 'events'. 
 An Event occurs when a user logs in/out of a machine.
