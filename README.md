@@ -7,7 +7,7 @@ This project contains one .py file:
   - This file determines which users are still logged into a machine based on a series of events that record when a user logs in/out of a particular machine.
   - Users that have not logged out of a machine will be visible within the generated report.
  
-**Overview of the script: **
+**Overview of the script:**
 - The script contains an 'Event' class and a List element named 'events'. 
   - An Event occurs when a user logs in/out of a machine.
   - The 'events' list holds several 'Event' objects which contain information about a specific event.
