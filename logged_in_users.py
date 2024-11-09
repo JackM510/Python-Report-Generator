@@ -32,7 +32,7 @@ def current_users(events):
 #this function generates a report of users logged into a machine.
 #this function will automatically print out the report results to the console.
 def generate_report(machines):
-    print("Below is a list of users which are logged into a machine:")
+    print("Below is a list of users that are logged into a machine:")
     for machine, users in machines.items():
         if len(users) > 0:
             user_list = ", ".join(users)
