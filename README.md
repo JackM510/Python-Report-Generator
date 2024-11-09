@@ -1,4 +1,4 @@
-# Python-logged-in-users
+# Python-Report-Generator
 A simple Python script which generates a report of users that are logged into a machine as part of the Crash Course on Python from Google Careers Certificates.
 
 This project contains one .py file:
@@ -6,6 +6,7 @@ This project contains one .py file:
   - logged_in_users.py is the file where the report is generated.
   - This file determines which users are still logged into a machine based on a series of events that record when a user logs in/out of a particular machine.
   - Users that have not logged out of a machine will be visible within the generated report.
+
  
 **Overview of the script:**
 - The script contains an 'Event' class and a List element named 'events'. 
