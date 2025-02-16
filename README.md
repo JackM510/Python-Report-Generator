@@ -1,4 +1,4 @@
-# Python-Report-Generator
+# Report-Generator
 A simple Python script that generates a report of users which are logged into a machine based on a list of events. This project was developed as part of the Crash Course on Python from Google Careers Certificates.
 
 # Features
