@@ -10,3 +10,7 @@ A simple Python script that generates a report of users which are logged into a 
 1. Clone the repository.
 2. Ensure that Python is installed on your machine.
 3. Run the script directly from VS Code or from a terminal using the command 'python logged_in_users.py'.
+
+# Usage
+- Each event in the script is hard-coded and the outcome of the script will be the same when executed. 
+- To modify the output you can add or remove an Event in the 'events' list or modify an existing Event.
