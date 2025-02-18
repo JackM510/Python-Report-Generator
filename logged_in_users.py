@@ -14,7 +14,7 @@ def get_event_date(event):
 # Returns a Dictionary of machines that have recorded an event where a user has logged in
 def current_users(events):
     events.sort(key=get_event_date)
-    machines = {} # Intialise an empty Dictionary
+    machines = {} # Empty Dictionary
     for event in events:
         if event.machine not in machines:
             machines[event.machine] = set()
